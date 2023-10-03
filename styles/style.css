@@ -90,7 +90,7 @@ header nav ul li a {
     list-style: none;
 }
 
-main ul {
+main nav ul {
     display: flex;
 }
 
@@ -143,9 +143,3 @@ header nav ul img {
 
 }
 
-.ingredientenlijst li {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    
-}

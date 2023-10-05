@@ -126,20 +126,21 @@ header nav ul img {
     
     display: flex;
     align-items: center;
-
+    flex-wrap: wrap;
 }
 
-.banners1 {
+.banners img {
+    width: 30em;
+    margin: 1em;
+}
+
+h3 {
+    font-size: smaller;
+    margin-top: 3em;
+    margin-left: 2.5%;
+}
+p {
+    margin-left: 2.5%;
+    margin-right: 10%;
     
-    display: flex;
-    align-items: center;
-
 }
-
-.banners2 {
-    
-    display: flex;
-    align-items: center;
-
-}
-

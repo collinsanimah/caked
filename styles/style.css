@@ -31,12 +31,21 @@ main section button {
 
 button:hover {
     opacity: 50%;
-    transition: 0.5s;
+    transition: 0.1s;
+   
 }
+button:active {
+    background-color: #fff9f9;
+    box-shadow: 0 5px rgb(56, 56, 56);
+    color: white;
+    transform: translateY(7px);
+  }
+
 a:hover {
     opacity: 80%;
     transition: 0.5s;
 }
+
 
 main button a {
     font-family: 'Courier New', Courier, monospace;
@@ -45,18 +54,14 @@ main button a {
     color: rgb(0, 0, 0);
 }
 
+
 main section {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 
 }
-
-
-
-
-
-
 
 header {
     background-color: rgb(0, 0, 0);
@@ -123,7 +128,6 @@ header nav ul img {
 }
 
 .banners {
-    
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -131,16 +135,90 @@ header nav ul img {
 
 .banners img {
     width: 30em;
-    margin: 1em;
+    margin: 2em;
 }
 
-h3 {
-    font-size: smaller;
-    margin-top: 3em;
-    margin-left: 2.5%;
-}
 p {
     margin-left: 2.5%;
     margin-right: 10%;
     
+}
+
+main ul {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 20em;
+    margin-left: 5em;
+    border-radius: 5%;
+    padding: 2em;
+}
+
+iframe {
+margin: 10%;
+background-color: white;
+}
+
+main ol {
+
+    color: rgb(0, 0, 0);
+    width: 80%;
+    margin-left: 4em;
+    border-radius: 5%;
+    padding: 2em;
+}
+
+main ol li {
+    margin-bottom: 1em;
+    background-color: white;
+    padding: 1.5em;
+    
+}
+
+
+
+
+main h2 {
+   display: flex;
+   flex-wrap: wrap;
+    background-color: white;
+    color: black;
+    width: 10em;
+    margin-left: 3.5em;
+    padding: 1em;
+    border-radius: 10%;
+    
+}
+
+.cupcakes {
+display: flex;
+flex-wrap: wrap;
+    
+}
+
+.cupcakes img {
+    width: 12em;
+    height: auto;
+    margin: 1em;
+
+}
+
+.cupcakes img:hover {
+    opacity: 60%;
+    transition: 0.5s
+}
+
+main p {
+    margin: auto;
+    width: 60em;
+    background-color: white;
+    color: black;
+    padding: 0.5em;
+    margin-bottom: 2em;
+}
+
+.ik img{
+    display: flex;
+    align-items: center;
+    width: 60em;
+ 
 }
